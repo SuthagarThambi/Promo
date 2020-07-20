@@ -1,6 +1,5 @@
 ﻿using PromotionEngine.Business.Contracts;
 using PromotionEngine.Business.Contracts.Models;
-using PromotionEngine.Contracts;
 using System;
 using System.Collections.Generic;
 
