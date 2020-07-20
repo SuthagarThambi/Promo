@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sutha\\OneDrive\\Documents\\GitHub\\Promo\\PromotionEngine\\PromotionEngine.csproj": {}
+    "D:\\Promo\\PromotionEngine\\PromotionEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sutha\\OneDrive\\Documents\\GitHub\\Promo\\PromotionEngine\\PromotionEngine.csproj": {
+    "D:\\Promo\\PromotionEngine\\PromotionEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sutha\\OneDrive\\Documents\\GitHub\\Promo\\PromotionEngine\\PromotionEngine.csproj",
+        "projectUniqueName": "D:\\Promo\\PromotionEngine\\PromotionEngine.csproj",
         "projectName": "PromotionEngine",
-        "projectPath": "C:\\Users\\sutha\\OneDrive\\Documents\\GitHub\\Promo\\PromotionEngine\\PromotionEngine.csproj",
+        "projectPath": "D:\\Promo\\PromotionEngine\\PromotionEngine.csproj",
         "packagesPath": "C:\\Users\\sutha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sutha\\OneDrive\\Documents\\GitHub\\Promo\\PromotionEngine\\obj\\",
+        "outputPath": "D:\\Promo\\PromotionEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sutha\\AppData\\Roaming\\NuGet\\NuGet.Config",
