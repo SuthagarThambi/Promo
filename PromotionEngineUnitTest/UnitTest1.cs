@@ -35,9 +35,9 @@ namespace PromotionEngineUnitTest
             List<PurchaseDetails> purchaseDetails = MockData.GetScenario2();
             var response = _businessManager.CheckOut(purchaseDetails);
             int Aval = response.Where(i => i.SKU_Name == "A").Select(i => i.SKU_PRICE).FirstOrDefault();
-            var Bval = response.Where(i => i.SKU_Name == "B").Select(i => i.SKU_PRICE).FirstOrDefault();
-            var Cval = response.Where(i => i.SKU_Name == "C").Select(i => i.SKU_PRICE).FirstOrDefault();
-            var Dval = response.Where(i => i.SKU_Name == "D").Select(i => i.SKU_PRICE).FirstOrDefault();
+            int Bval = response.Where(i => i.SKU_Name == "B").Select(i => i.SKU_PRICE).FirstOrDefault();
+            int Cval = response.Where(i => i.SKU_Name == "C").Select(i => i.SKU_PRICE).FirstOrDefault();
+          
             Assert.Equal(230, Aval);
             Assert.Equal(120, Bval);
             Assert.Equal(20, Cval);
@@ -48,9 +48,9 @@ namespace PromotionEngineUnitTest
             List<PurchaseDetails> purchaseDetails = MockData.GetScenario3();
             var response = _businessManager.CheckOut(purchaseDetails);
             int Aval = response.Where(i => i.SKU_Name == "A").Select(i => i.SKU_PRICE).FirstOrDefault();
-            var Bval = response.Where(i => i.SKU_Name == "B").Select(i => i.SKU_PRICE).FirstOrDefault();
-            var Cval = response.Where(i => i.SKU_Name == "C").Select(i => i.SKU_PRICE).FirstOrDefault();
-            var Dval = response.Where(i => i.SKU_Name == "D").Select(i => i.SKU_PRICE).FirstOrDefault();
+            int Bval = response.Where(i => i.SKU_Name == "B").Select(i => i.SKU_PRICE).FirstOrDefault();
+            int Cval = response.Where(i => i.SKU_Name == "C").Select(i => i.SKU_PRICE).FirstOrDefault();
+            int Dval = response.Where(i => i.SKU_Name == "D").Select(i => i.SKU_PRICE).FirstOrDefault();
             Assert.Equal(50, Aval);
             Assert.Equal(30, Bval);
             Assert.Equal(20, Cval);
